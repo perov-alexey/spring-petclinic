@@ -45,7 +45,7 @@ public class ValidatorTests {
 
     @Test
     public void failingTest() {
-        assertThat(true == false);
+        assertThat("1").isEqualTo("2");
     }
 
 }
